@@ -23,7 +23,9 @@ In this topic, we'll cover how to set up Test Intelligence in Harness CI Stage.
 
 Test Intelligence is supported for Java and .NET Core codebases only at this time.
 
-Currently, Test Intelligence for .NET is behind the Feature Flag `TI_DOTNET`. Contact [Harness Support](mailto:support@harness.io) to enable the feature.### Step 1: Create the CI Stage
+Currently, Test Intelligence for .NET is behind the Feature Flag `TI_DOTNET`. Contact [Harness Support](mailto:support@harness.io) to enable the feature.
+
+### Step 1: Create the CI Stage
 
 In your Harness Pipeline, click **Add Stage**, and then click Build.
 
@@ -71,7 +73,7 @@ Bootstrapping helps generate the initial call graph for Test Intelligence. Once 
 
 Configure the Webhook.
 
-You can trigger Pipelines in response to Git events automatically. For configuring the webhook for the Trigger, see [Add a Trigger](https://ngdocs.harness.io/article/hndnde8usz-triggering-pipelines#step_1_add_a_trigger_to_a_pipeline). 
+You can trigger Pipelines in response to Git events automatically. For configuring the webhook for the Trigger, see [Add a Trigger](../../../platform/11_Triggers/triggering-pipelines.md#step-1-add-a-trigger-to-a-pipeline). 
 
 Open the PR.
 
