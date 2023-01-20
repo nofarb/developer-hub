@@ -1,5 +1,5 @@
 ---
-title: Define a Docker Build Infrastructure
+title: Define a Local build environemnt
 description: You can define a CI build infrastructure on any Linux or MacOS host. This is the simplest build infrastructure to set up and is well suited to developers who want to build on their laptops.
 sidebar_position: 15
 helpdocs_topic_id: xd8u17be5h
