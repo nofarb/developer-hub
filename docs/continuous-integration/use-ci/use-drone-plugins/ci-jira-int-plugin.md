@@ -58,9 +58,9 @@ The following YAML example describes a [Plugin step](../../ci-technical-referenc
                     connectorRef: account.harnessImage #DockerHub container registry connector
                     image: plugins/jira
                     settings:
-                      PROJECT: MYT #Your Jira project key
-                      CONNECT_KEY: <+secrets.getValue("jiraKey")> #Jira authentication token secret
-                      INSTANCE: myorg #Your Jira instance hostname
+                      PROJECT: [project_key] #Your Jira project key
+                      CONNECT_KEY: [harness secret] # ref to the secretcreated for you Jira app authentication token 
+                      INSTANCE: [instance_name] #Your Jira instance hostname
                       STATE: successful #Optional: Update Jira only when builds succeed
 ```
 
